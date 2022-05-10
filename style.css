@@ -1,0 +1,133 @@
+
+@font-face {
+  font-family: 'lico';
+  src: url('fonts/Licorice-Regular.ttf') format('truetype') ;
+}
+@font-face {
+  font-family: 'aref' ;
+  src: url('fonts/ArefRuqaa-Regular.ttf') format('truetype');
+}
+
+main {
+background-color: #f8f8f8;
+}
+
+h6 {
+margin-left: 1rem ;
+}
+.tit {
+text-align: center;
+margin-right: auto;
+padding: 0 1rem;
+font-family: 'lico', Helvetica, sans-serif;
+font-size: 5rem;
+margin-top: -2rem;
+}
+.slogan{
+text-align: center; margin-right: auto;
+margin-top: -2rem;
+font-family: 'aref', Helvetica, sans-serif;
+color: salmon;
+font-size: 1rem;
+}
+.slogan2{
+text-align: center;
+margin-right: auto;
+margin-top: -1rem;
+font-family: 'aref', Helvetica, sans-serif;
+color: salmon;
+font-size: 1rem;
+}
+.offcanvas-title{
+font-family: 'lico', Helvetica, sans-serif;
+font-size: 4rem;
+}
+.img-fluid {
+width: 75%;
+margin-right: auto;
+margin-left: auto;
+display: block;
+}
+.container-fluid {
+background-color: rgba(238, 130, 238, 0.192);
+height: 13rem;
+margin-top: -1rem;
+}
+.carousel-control-prev-icon{
+background-color:  salmon;
+margin-top: 20rem;
+}
+.carousel-control-next-icon {
+background-color:  salmon;
+margin-top: 20rem;
+}
+.pic {
+box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+border-radius: 5%;
+width: 65%;
+margin-top: 20rem;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+.box-social {
+  width: 27rem;
+  margin: auto;
+  margin-top: 10rem;
+  border: 1px solid rgba(250, 128, 114, 0.507);
+  padding: 0rem;
+display: block;
+align-items: center;
+margin-left: auto;
+margin-right: auto;
+border-radius: 1rem;
+
+  }
+
+.social {
+text-align: center;
+font-family: 'aref', Helvetica, sans-serif;
+color: salmon;
+margin-top: 3rem;
+margin-bottom: 1rem;
+margin-left: 1rem;
+}
+.ico-fb {
+margin-left: 3rem;
+padding: 1rem;
+display: flexbox;
+width: 5rem;
+}
+.ico-wt {
+  padding: 1rem;
+  display: flexbox;
+  width: 5rem;
+  }
+  .ico-ins {
+    padding: 1rem;
+    display: flexbox;
+    width: 5rem;
+    }
+    .ico-mail {
+      padding: 1rem;
+      display: flexbox;
+      width: 5rem;
+      }
+
+
+
+
+
+
+
+
+footer {
+text-align: center;
+background-color: #f8f8f8;
+margin-top: 2rem;
+font-size: 12px;
+position: inherit;
+margin-top: 9rem;
+}
+
