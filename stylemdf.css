@@ -1,0 +1,84 @@
+@font-face {
+  font-family: 'lico';
+  src: url('fonts/Licorice-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'aref';
+  src: url('fonts/ArefRuqaa-Regular.ttf') format('truetype');
+}
+main {
+  background-color: #f8f8f8;
+}
+
+h6 {
+  margin-left: 1rem;
+}
+.tit {
+  text-align: center;
+  margin-right: auto;
+  padding: 0 1rem;
+  font-family: 'lico', Helvetica, sans-serif;
+  font-size: 5rem;
+  margin-top: -2rem;
+}
+.slogan {
+  text-align: center;
+  margin-right: auto;
+  margin-top: -2rem;
+  font-family: 'aref', Helvetica, sans-serif;
+  color: salmon;
+  font-size: 1rem;
+}
+.slogan2 {
+  text-align: center;
+  margin-right: auto;
+  margin-top: -1rem;
+  font-family: 'aref', Helvetica, sans-serif;
+  color: salmon;
+  font-size: 1rem;
+}
+.offcanvas-title {
+  font-family: 'lico', Helvetica, sans-serif;
+  font-size: 4rem;
+}
+.img-fluid {
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+.container-fluid {
+  background-color: rgba(156, 102, 0, 0.295);
+  height: 13rem;
+  margin-top: -1rem;
+}
+.card .img-fluid {
+  margin-top: 1rem;
+}
+.container {
+  margin-top: 15rem;
+  text-align: center;
+}
+
+
+.container h2 {
+  font-family: 'aref', Helvetica, sans-serif;
+  color: salmon;
+  padding: 2rem;
+}
+.container h5,
+p {
+  font-family: 'aref', Helvetica, sans-serif;
+}
+.card-body {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  background-color: #f8f8f8;
+  margin-top: 2rem;
+  font-size: 12px;
+  position: inherit;
+  margin-top: 9rem;
+}

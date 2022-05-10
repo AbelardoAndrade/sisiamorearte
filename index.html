@@ -9,7 +9,7 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <link rel="stylesheet" href="style.css" />
-<link rel="shortcut icon" href="ico/pintura.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="ico/pintura.ico" type="image/x-icon" />
     <!-- Bootstrap CSS v5.0.2 -->
     <link
       rel="stylesheet"
@@ -21,8 +21,12 @@
   <header>
     <nav class="navbar navbar-light bg-light fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"
-          ><img class="img-fluid" src="sakura/galho-sakura300x150.png" alt="Galho de Sakura" />
+        <a class="navbar-brand" href="index.html"
+          ><img
+            class="img-fluid"
+            src="sakura/galho-sakura300x150.png"
+            alt="Galho de Sakura"
+          />
           <h1 class="tit">Sisi</h1>
           <p class="slogan">Amor & Arte</p></a
         >
@@ -56,7 +60,9 @@
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Redes Sociais</a>
@@ -76,17 +82,21 @@
                   class="dropdown-menu"
                   aria-labelledby="offcanvasNavbarDropdown"
                 >
-                  <li><a class="dropdown-item" href="#">Mesa & Banho</a></li>
-                  <li><a class="dropdown-item" href="#">MDF</a></li>
-                  <li><a class="dropdown-item" href="#">Crochê</a></li>
-                  <li><a class="dropdown-item" href="#">Ponto cruz</a></li>
+                  <li>
+                    <a class="dropdown-item" href="mesaebanho.html"
+                      >Mesa & Banho</a
+                    >
+                  </li>
+                  <li><a class="dropdown-item" href="mdf.html">MDF</a></li>
+                  <li><a class="dropdown-item" href="croche.html">Crochê</a></li>
+                  <li><a class="dropdown-item" href="pontocruz.html">Ponto cruz</a></li>
                   <li><a class="dropdown-item" href="#">Feltro</a></li>
                   <li>
                     <hr class="dropdown-divider" />
                   </li>
                   <h6>Infantil</h6>
-                  <li><a class="dropdown-item" href="#">Masculino</a></li>
-                  <li><a class="dropdown-item" href="#">Feminino</a></li>
+                  <li><a class="dropdown-item" href="masculino.html">Masculino</a></li>
+                  <li><a class="dropdown-item" href="feminino.html">Feminino</a></li>
                 </ul>
               </li>
             </ul>
@@ -106,95 +116,116 @@
       </div>
     </nav>
   </header>
-<!--A partir daqui - Carroussel-->
-<body>
-<main>
-    <section>
-      <div
-        id="carouselExampleIndicators"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              class="pic"
-              src="picture/caminho-de-mesa00-338x600.jpeg"
-              class="d-block w-100"
-              alt="Foto 01"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              class="pic"
-              src="picture/caminho-de-mesa00.jpeg"
-              class="d-block w-100"
-              alt="Foto 02"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              class="pic"
-              src="picture/caminho-de-mesa01.jpeg"
-              class="d-block w-100"
-              alt="Foto 03"
-            />
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="prev"
+  <!--A partir daqui - Carroussel-->
+  <body>
+    <main>
+      <section>
+       
+          <h1 class="destaques">Destaques da semana</h1>
+      
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="carousel"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </section>
-    <div>
-      <section class="box-social">
-        <h2 class="social">Redes Sociais</h2>
-        <a href="#"><img width="100" class="ico-fb" src="ico/face.ico" alt="Facebook" /></a>
-        <a href="#"><img width="100" class="ico-wt" src="ico/whats.ico" alt="Whatsapp" /></a>
-        <a href="#"><img width="100" class="ico-ins" src="ico/insta.ico" alt="Instagram" /></a>
-        <a href="#"><img width="100" class="ico-mail" src="ico/gmail.ico" alt="G-mail" /></a>
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                class="pic"
+                src="picture/caminho-de-mesa00-338x600.jpeg"
+                class="d-block w-100"
+                alt="Foto 01"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="pic"
+                src="picture/caminho-de-mesa00.jpeg"
+                class="d-block w-100"
+                alt="Foto 02"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="pic"
+                src="picture/caminho-de-mesa01.jpeg"
+                class="d-block w-100"
+                alt="Foto 03"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
       </section>
-    </div>
-  </main>
-  <footer>Criado e desenvolvido por <a href="https://github.com/AbelardoAndrade" target="_blank">Abelardo Andrade &reg</a> 2022</footer>
- 
+      <div>
+        <section class="box-social">
+          <h2 class="social">Redes Sociais</h2>
+          <a href="#"
+            ><img width="100" class="ico-fb" src="ico/face.ico" alt="Facebook"
+          /></a>
+          <a href="#"
+            ><img width="100" class="ico-wt" src="ico/whats.ico" alt="Whatsapp"
+          /></a>
+          <a href="#"
+            ><img
+              width="100"
+              class="ico-ins"
+              src="ico/insta.ico"
+              alt="Instagram"
+          /></a>
+          <a href="#"
+            ><img width="100" class="ico-mail" src="ico/gmail.ico" alt="G-mail"
+          /></a>
+        </section>
+      </div>
+    </main>
+    <footer>
+      Criado e desenvolvido por
+      <a href="https://github.com/AbelardoAndrade" target="_blank"
+        >Abelardo Andrade &reg</a
+      >
+      2022
+    </footer>
+
     <!-- Bootstrap JavaScript Libraries -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
